@@ -8,14 +8,14 @@
 	<Buildings>
 		<Row>
 			<Type>BUILDING_STONE_WORKS</Type>
-			<ProhibitedCityTerrain>NULL</ProhibitedCityTerrain><!-- DEFAULT TERRAIN_PLAINS -->
+			<ProhibitedCityTerrain>NULL</ProhibitedCityTerrain><!-- TERRAIN_PLAINS -->
 		</Row>
 	</Buildings>
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield><!-- MOD 2 -->
+			<Yield>3</Yield><!-- 2 -->
 		</Row>
 	</Building_YieldChanges>
 	<Building_LocalResourceOrs>
@@ -26,6 +26,18 @@
 	</Building_LocalResourceOrs>
 	<Building_ResourceYieldChanges>
 		<!-- START -->
+		<Row><!-- Resource - Mint Include Copper -->
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield><!-- 2 -->
+		</Row>
 		<Row><!-- Resource - SEAPORT ENHANCE CITRUS -->
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
@@ -38,19 +50,7 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>		
-		<Row><!-- Resource - Mint Include Copper -->
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 		<!-- END -->
-		<Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_GOLD</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield><!-- MOD -->
-		</Row>
 	</Building_ResourceYieldChanges>
 ```
 ## Improved Caravansary
@@ -64,6 +64,19 @@ Caravansary now provides:
 
 The production cost has been increased from 120 to 150 as well.
 
+### CIV5Buildings
+
+```xml
+		<Row>
+			<Type>BUILDING_GRANARY</Type>
+			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes><!-- true -->
+		</Row>
+		<Row>
+			<Type>BUILDING_WORKSHOP</Type>
+			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes><!-- true -->
+		</Row>
+```
+
 ### CIV5BuildingClasses_Expansion2
 
 ```xml
@@ -71,7 +84,7 @@ The production cost has been increased from 120 to 150 as well.
 			<Type>BUILDINGCLASS_CARAVANSARY</Type>
 			<DefaultBuilding>BUILDING_CARAVANSARY</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description>
-			<MaxPlayerInstances>10</MaxPlayerInstances><!-- MOD -->
+			<MaxPlayerInstances>10</MaxPlayerInstances><!-- ADD -->
 		</Row>
 ```
 
@@ -82,10 +95,10 @@ The production cost has been increased from 120 to 150 as well.
 			<Type>BUILDING_CARAVANSARY</Type>
 			<Cost>150</Cost><!-- DEFAULT 120 -->
 			<GoldMaintenance>1</GoldMaintenance><!-- ADD -->
-			<!--<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>-->
 			<CityConnectionTradeRouteModifier>1</CityConnectionTradeRouteModifier><!-- ADD -->
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes><!-- ADD -->
 			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes><!-- ADD -->
+			<!--<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>-->
 		</Row>
 	<Building_ResourceYieldChanges>
 		<!-- START -->
@@ -99,18 +112,6 @@ The production cost has been increased from 120 to 150 as well.
 	</Building_ResourceYieldChanges>
 ```
 
-### CIV5Buildings
-
-```xml
-		<Row>
-			<Type>BUILDING_GRANARY</Type>
-			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes><!-- MOD -->
-		</Row>
-		<Row>
-			<Type>BUILDING_WORKSHOP</Type>
-			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes><!-- MOD -->
-		</Row>
-```
 ## BUILDING UPGRADE SYSTEM
 
 ### CIV5BuildingClasses_Expansion2
@@ -118,6 +119,8 @@ The production cost has been increased from 120 to 150 as well.
 ```xml
 	<BuildingClasses>
 
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Cultural  -->
 		<Row>
 			<Type>BUILDINGCLASS_MONUMENT_UP</Type>
@@ -232,7 +235,7 @@ The production cost has been increased from 120 to 150 as well.
 			<DefaultBuilding>BUILDING_WORKSHOP_UP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_WORKSHOP_UP</Description>
 		</Row>
-
+	<!-- END -->
 	</BuildingClasses>
 ```
 
@@ -240,7 +243,8 @@ The production cost has been increased from 120 to 150 as well.
 
 ```xml
 	<Buildings>
-		
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Cultural  -->
 		<Row>
 			<Type>BUILDING_MONUMENT_UP</Type>
@@ -633,9 +637,11 @@ The production cost has been increased from 120 to 150 as well.
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
-
+	<!-- END -->
 	</Buildings>
 	<Building_ClassesNeededInCity>
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -733,10 +739,11 @@ The production cost has been increased from 120 to 150 as well.
 			<BuildingType>BUILDING_WORKSHOP_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 		</Row>
-
+	<!-- END -->
 	</Building_ClassesNeededInCity>
 	<Building_DomainFreeExperiences>
-
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Military  -->
 		<Row>
 			<BuildingType>BUILDING_BARRACKS_UP</BuildingType>
@@ -784,8 +791,11 @@ The production cost has been increased from 120 to 150 as well.
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>7</Experience>
 		</Row>
+	<!-- END -->
 	</Building_DomainFreeExperiences>
 	<Building_Flavors>
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -918,10 +928,11 @@ The production cost has been increased from 120 to 150 as well.
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
-
-
+	<!-- END -->
 	</Building_Flavors>
 	<Building_YieldChanges>
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -972,20 +983,22 @@ The production cost has been increased from 120 to 150 as well.
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
-		<!--  Science  -->
-
+	<!-- END -->
 	</Building_YieldChanges>
 	<Building_YieldChangesPerPop>
-		
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Sciences  -->
 		<Row>
 			<BuildingType>BUILDING_LIBRARY_UP</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>25</Yield>
 		</Row>
+	<!-- END -->
 	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers>
+	<!-- BUILDING UPGRADE SYSTEM -->
+	<!-- START -->
 		<!--  Sciences  -->
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY_UP</BuildingType>
@@ -999,6 +1012,6 @@ The production cost has been increased from 120 to 150 as well.
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
 		</Row>
-
+	<!-- END -->
 	</Building_YieldModifiers>
 ```
