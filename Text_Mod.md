@@ -1,6 +1,8 @@
 # Text mod
 
-## CIV5GameTextInfos2_Inherited_Expansion2
+## Balance weak beliefs
+
+Mod in *CIV5GameTextInfos2_Inherited_Expansion2*
 
 ```xml
 <!-- weak beliefs balanced -->
@@ -33,7 +35,7 @@
 			<!--<Text>+1 [ICON_HAPPINESS_1] Happiness from cities on rivers</Text>-->
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE">
-			<Text>When Missionary or Prophet converts city of other religion, gains 25 [ICON_RESEARCH] science boost for each believer of other religion converted</Text>
+			<Text>Gain 25 [ICON_RESEARCH] Science boost for each believer of other religion converted when Missionary or Prophet converts city of other religion</Text>
 			<!--<Text>Gain [ICON_RESEARCH] Science when a Missionary or Prophet spreads this religion to cities of other religions</Text>-->
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
@@ -74,7 +76,9 @@
 		</Row>
 ```
 
-## CIV5GameTextInfos_Jon
+## Mint Include Copper & SEAPORT Include CITRUS
+
+Mod in *CIV5GameTextInfos_Jon*
 
 path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 
@@ -82,14 +86,20 @@ path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 <!-- Resource - Mint Include Copper -->
 		<Row Tag="TXT_KEY_BUILDING_MINT_HELP">
 			<Text>+3 [ICON_GOLD] Gold from [ICON_RES_GOLD] Gold.[NEWLINE]+2 [ICON_GOLD] Gold from [ICON_RES_SILVER] Silver.[NEWLINE]+1 [ICON_GOLD] Gold from [ICON_RES_COPPER] Copper.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text>
-		</Row><!-- DEFAULT +2 gold from GOLD and SILVER -->
-<!-- Resource - SEAPORT ENHANCE CITRUS -->
+			<!-- <Text>Each source of [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text> -->
+		</Row>
+<!-- Resource - SEAPORT Include CITRUS -->
 		<Row Tag="TXT_KEY_BUILDING_SEAPORT_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Sea Resources worked by this City.  +15% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold from [ICON_RES_CITRUS] Citrus.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+			<!-- <Text>+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Sea Resources worked by this City.  +15% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]City must be built on the coast.</Text> -->
 		</Row><!-- +1 GOLD FROM CITRUS -->
 ```
 
-## CIV5GameTextInfos2_Expansion2
+## Granary Includes Bison & Improved Caravansary & BUILDING UPGRADE SYSTEM
+
+Mod in *CIV5GameTextInfos2_Expansion2*
+
+### Granary Includes Bison
 
 ```xml
 <!-- Resource - Granary Includes Bison -->
@@ -98,7 +108,11 @@ path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 			<Set Text="Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food." />
 			<!--<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>-->
 		</Update>
+```
 
+### Improved Caravansary
+
+```xml
 <!-- Improved Caravansary -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_HELP">
@@ -109,10 +123,13 @@ path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 			<Text>+1% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections. +1 [ICON_GOLD] Gold from [ICON_RES_SALT] Salt.[NEWLINE][NEWLINE]Land trade routes originating from this city have a 50% increase in range.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food and [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.[NEWLINE][NEWLINE]Maximum of 10 of these buildings in your empire.</Text>
 			<!--<Text>Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization.</Text>-->
 		</Row>
-<!-- BUILDING UPGRADE SYSTEM  -->
+```
 
+### BUILDING UPGRADE SYSTEM
+
+```xml
 	<Language_en_US>
-
+<!-- BUILDING UPGRADE SYSTEM  -->
 		<!--  Cultural  -->
 		<Row Tag="TXT_KEY_BUILDING_MONUMENT_UP">
 			<Text>Monument - Upgrade</Text>
@@ -248,6 +265,6 @@ path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_UP_STRATEGY">
 			<Text>Improve the existing Workshop with a +5% [ICON_PRODUCTION] Production and +1 [ICON_GREAT_PEOPLE] Engineer Slot but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
 		</Row>
-
+<!-- END BUILDING UPGRADE SYSTEM  -->
 	</Language_en_US>
 ```
