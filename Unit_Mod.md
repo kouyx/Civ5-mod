@@ -45,7 +45,7 @@ Mod in *CIV5Civilizations*
 - Moved to class *UNITCLASS_KNIGHT*;
 - Enhanced slightly.
 
-Mod in *CIV5Traits*
+Mod in *CIV5Civilizations_Expansion2*
 
 ```xml
 	<Civilization_UnitClassOverrides>
@@ -103,13 +103,11 @@ Add in *CIV5Units*
 		<Row>
 			<Class>UNITCLASS_BATTLESHIP</Class>
 			<Type>UNIT_BATTLESHIP</Type>
-			<!-- UPGRADE TO MISSILE CRUISER-->
-			<GoodyHutUpgradeUnitClass>UNITCLASS_MISSILE_CRUISER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MISSILE_CRUISER</GoodyHutUpgradeUnitClass><!-- UPGRADE TO MISSILE CRUISER-->
 		</Row>
 	</Units>
 	<Unit_ClassUpgrades>
-		<!-- BATTLESHIP UPGRADE TO MISSILE CRUISER-->
-		<Row>
+		<Row><!-- BATTLESHIP UPGRADE TO MISSILE CRUISER-->
 			<UnitType>UNIT_BATTLESHIP</UnitType>
 			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
 		</Row>
@@ -126,8 +124,7 @@ Add in *CIV5Units_Inherited_Expansion2*
 		<Replace>
 			<Class>UNITCLASS_MARINE</Class>
 			<Type>UNIT_MARINE</Type>
-			<!-- UPGRADE TO XCOM-->
-			<GoodyHutUpgradeUnitClass>UNITCLASS_XCOM_SQUAD</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_XCOM_SQUAD</GoodyHutUpgradeUnitClass><!-- UPGRADE TO XCOM-->
 	</Units>
 	<Unit_ClassUpgrades>
 		<Row><!-- UPGRADE TO XCOM-->
@@ -183,29 +180,33 @@ Add in *CIV5Units_Inherited_Expansion2*
 
 ### Affected Units view (multiple resource)
 
-- UNIT_BATTLESHIP
+- BATTLESHIP
   - 2 IRON
-- UNIT_CARRIER
+- CARRIER
   - 2 IRON
   - ALUMINUM
   - OIL
-- UNIT_SUBMARINE
+- SUBMARINE
   - IRON
   - ALUMINUM
-- UNIT_MISSILE_CRUISER
+- MISSILE_CRUISER
   - IRON
   - OIL
   - ALUMINUM
-- UNIT_JET_FIGHTER
+- JET_FIGHTER
   - OIL
   - 2 ALUMINUM
-- UNIT_STEALTH_BOMBER
+- STEALTH_BOMBER
   - 2 OIL
-- UNIT_NUCLEAR_SUBMARINE
+- NUCLEAR_SUBMARINE
   - ALUMINUM
   - URANIUM
 - Giant Death Robot
   - 2 ALUMINUM
+- ATOMIC_BOMB
+  - 2 URANIUM
+- NUCLEAR_MISSILE
+  - 3 URANIUM
 
 ### Code
 
@@ -221,7 +222,7 @@ Add in *CIV5Units*
 			<Cost>2</Cost>
 		</Row>
 	-->
-		<!-- START -->
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<!-- RENAISSANCE ERA -->
 		<Row>
 			<UnitType>UNIT_CANNON</UnitType>
@@ -344,21 +345,21 @@ Add in *CIV5Units*
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 			<Cost>2</Cost>
 		</Row>
-		<!-- END -->
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Cost>3</Cost><!-- MOD -->
+			<Cost>2</Cost><!-- 1 -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Cost>6</Cost><!-- MOD -->
+			<Cost>3</Cost><!-- 2 -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>2</Cost><!-- ADD TO 2 -->
+			<Cost>2</Cost><!-- 1 -->
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 ```
@@ -367,7 +368,7 @@ Mod in *CIV5Units_Expansion2*
 
 ```xml
 	<Unit_ResourceQuantityRequirements>
-		<!-- START -->
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<Row>
 			<UnitType>UNIT_XCOM_SQUAD</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
@@ -376,7 +377,7 @@ Mod in *CIV5Units_Expansion2*
 			<UnitType>UNIT_BAZOOKA</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
-		<!-- END -->
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 	</Unit_ResourceQuantityRequirements>
 ```
 
@@ -384,7 +385,7 @@ Mod in *CIV5Units_Inherited_Expansion2*
 
 ```xml
 	<Unit_ResourceQuantityRequirements>
-		<!-- START -->
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<Row>
 			<UnitType>UNIT_TRIPLANE</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
@@ -397,6 +398,6 @@ Mod in *CIV5Units_Inherited_Expansion2*
 			<UnitType>UNIT_WWI_TANK</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
-		<!-- END -->
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 	</Unit_ResourceQuantityRequirements>
 ```
