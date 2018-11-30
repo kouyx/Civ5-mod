@@ -36,12 +36,11 @@ Mod in *CIV5Features*
 	<Features>
 		<Row>
 			<Type>FEATURE_OASIS</Type>
-			<NoImprovement>false</NoImprovement><!-- MOD -->
+			<NoImprovement>false</NoImprovement><!-- true -->
 		</Row>
-<!-- 岛礁可加设施 -->
 		<Row>
 			<Type>FEATURE_ATOLL</Type>
-			<NoImprovement>false</NoImprovement><!-- MOD -->
+			<NoImprovement>false</NoImprovement><!-- true -->
 		</Row>
 	</Features>
 ```
@@ -51,6 +50,8 @@ Mod in *CIV5Features*
 Mod in *CIV5Builds*
 
 ```xml
+	<BuildFeatures>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<Production>30</Production><!-- MOD -->
+	</BuildFeatures>
 ```
