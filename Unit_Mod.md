@@ -1,5 +1,413 @@
 # Units mod
 
+## Never obsolete UU
+
+### Mod in *CIV5Units*
+
+#### English [Ship of the Line](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ENGLISH_SHIPOFTHELINE.php)
+
+```xml
+			<Type>UNIT_ENGLISH_SHIPOFTHELINE</Type>
+			<!-- <ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech> -->
+```
+
+#### French (original) [Foreign Legion](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_FRENCH_FOREIGNLEGION.php)
+
+```xml
+			<Type>UNIT_FRENCH_FOREIGNLEGION</Type>
+			<!-- <ObsoleteTech>TECH_PLASTIC</ObsoleteTech> -->
+```
+
+#### Russian [Cossack](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_RUSSIAN_COSSACK.php)
+
+```xml
+			<Type>UNIT_RUSSIAN_COSSACK</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Ottoman [Sipahi](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_OTTOMAN_SIPAHI.php)
+
+```xml
+			<Type>UNIT_OTTOMAN_SIPAHI</Type>
+			<!-- <ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech> -->
+```
+
+#### American [Minuteman](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_AMERICAN_MINUTEMAN.php)
+
+```xml
+			<Type>UNIT_AMERICAN_MINUTEMAN</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### French [Musketeer](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_FRENCH_MUSKETEER.php)
+
+```xml
+			<Type>UNIT_FRENCH_MUSKETEER</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Ottoman [Janissary](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_OTTOMAN_JANISSARY.php)
+
+```xml
+			<Type>UNIT_OTTOMAN_JANISSARY</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Japanese [Samurai](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_JAPANESE_SAMURAI.php)
+
+```xml
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Arabian [Camel Archer](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ARABIAN_CAMELARCHER.php)
+
+```xml
+			<Type>UNIT_ARABIAN_CAMELARCHER</Type>
+			<!-- <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech> -->
+```
+
+#### Siamese [War Elephant](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_INDIAN_WARELEPHANT.php)
+
+```xml
+			<Type>UNIT_SIAMESE_WARELEPHANT</Type>
+			<!-- <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech> -->
+```
+
+#### Songhai's [Mandekalu Cavalry](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SONGHAI_MUSLIMCAVALRY.php)
+
+```xml
+			<Type>UNIT_SONGHAI_MUSLIMCAVALRY</Type>
+			<!-- <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech> -->
+```
+
+#### Chinese [Chu-Ko-Nu](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_CHINESE_CHUKONU.php)
+
+```xml
+			<Type>UNIT_CHINESE_CHUKONU</Type>
+			<!-- <ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech> -->
+```
+
+#### English [Longbowman](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ENGLISH_LONGBOWMAN.php)
+
+```xml
+			<Type>UNIT_ENGLISH_LONGBOWMAN</Type>
+			<!-- <ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech> -->
+```
+
+#### Roman [Ballista](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ROMAN_BALLISTA.php)
+
+```xml
+			<Type>UNIT_ROMAN_BALLISTA</Type>
+			<!-- <ObsoleteTech>TECH_PHYSICS</ObsoleteTech> -->
+```
+
+#### Greek [Companion Cavalry](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_GREEK_COMPANIONCAVALRY.php)
+
+```xml
+			<Type>UNIT_GREEK_COMPANIONCAVALRY</Type>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
+```
+
+#### Iroquoian [Mohawk Warrior](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_IROQUOIAN_MOHAWKWARRIOR.php)
+
+```xml
+			<Type>UNIT_IROQUOIAN_MOHAWKWARRIOR</Type>
+			<!-- <ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech> -->
+```
+
+#### Roman [Legion](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ROMAN_LEGION.php)
+
+```xml
+			<Type>UNIT_ROMAN_LEGION</Type>
+			<!-- <ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech> -->
+```
+
+#### Egyption [War Chariot](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_EGYPTIAN_WARCHARIOT.php)
+
+```xml
+			<Type>UNIT_EGYPTIAN_WARCHARIOT</Type>
+			<!-- <ObsoleteTech>TECH_CHIVALRY</ObsoleteTech> -->
+```
+
+#### Indian [War Elephant](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_INDIAN_WARELEPHANT.php)
+
+```xml
+			<Type>UNIT_INDIAN_WARELEPHANT</Type>
+			<!-- <ObsoleteTech>TECH_CHIVALRY</ObsoleteTech> -->
+```
+
+#### Greek [Hoplite](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_GREEK_HOPLITE.php)
+
+```xml
+			<Type>UNIT_GREEK_HOPLITE</Type>
+			<!-- <ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech> -->
+```
+
+#### Persian [Immortal](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_PERSIAN_IMMORTAL.php)
+
+```xml
+			<Type>UNIT_PERSIAN_IMMORTAL</Type>
+			<!-- <ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech> -->
+```
+
+#### Aztec's [Jaguar](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_AZTEC_JAGUAR.php)
+
+```xml
+			<Type>UNIT_AZTEC_JAGUAR</Type>
+			<!-- <ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Mongol (DLC01)*
+
+Mogolian [Keshik](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_MONGOLIAN_KESHIK.php)
+
+```xml
+			<Type>UNIT_MONGOLIAN_KESHIK</Type>
+			<!-- <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_DLC_02*
+
+Incan [Slinger](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_INCAN_SLINGER.php)
+
+```xml
+			<Type>UNIT_INCAN_SLINGER</Type>
+			<!-- <ObsoleteTech>TECH_MACHINERY</ObsoleteTech> -->
+```
+
+Spanish duplicates.
+
+### Mod in *CIV5Units_Polynesia (DLC03)*
+
+Polynesian [Maori Warrior](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_POLYNESIAN_MAORI_WARRIOR.php)
+
+```xml
+			<Type>UNIT_POLYNESIAN_MAORI_WARRIOR</Type>
+			<!-- <ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Denmark (DLC04)*
+
+#### Danish [Berserker](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_DANISH_BERSERKER.php)
+
+```xml
+			<Type>UNIT_DANISH_BERSERKER</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Danish [Norwegian Ski Infantry](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_DANISH_SKI_INFANTRY.php)
+
+```xml
+			<Type>UNIT_DANISH_SKI_INFANTRY</Type>
+			<!-- <ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Korea (DLC05)*
+
+#### Korean [Turtle Ship](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_KOREAN_TURTLE_SHIP.php)
+
+```xml
+			<Type>UNIT_KOREAN_TURTLE_SHIP</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Korean [Hwach'a](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_KOREAN_HWACHA.php)
+
+```xml
+			<Type>UNIT_KOREAN_HWACHA</Type>
+			<!-- <ObsoleteTech>TECH_CHEMISTRY</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Babylon (DLC_Deluxe)*
+
+Babylonian [Bowman](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_BABYLONIAN_BOWMAN.php)
+
+```xml
+			<Type>UNIT_BABYLONIAN_BOWMAN</Type>
+			<!-- <ObsoleteTech>TECH_MACHINERY</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Expansion*
+
+#### Celtic [Pictish Warrior](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_CELT_PICTISH_WARRIOR.php)
+
+```xml
+			<Type>UNIT_CELT_PICTISH_WARRIOR</Type>
+			<!-- <ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech> -->
+```
+
+#### Mayan [Atlatlist](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_MAYAN_ATLATLIST.php) from Maya
+
+```xml
+			<Type>UNIT_MAYAN_ATLATLIST</Type>
+			<!-- <ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech> -->
+```
+
+#### Byzantine's [Dromon](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_BYZANTINE_DROMON.php)
+
+```xml
+			<Type>UNIT_BYZANTINE_DROMON</Type>
+			<!-- <ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech> -->
+```
+
+#### Byzantine's [Cataphract](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_BYZANTINE_CATAPHRACT.php)
+
+```xml
+			<Type>UNIT_BYZANTINE_CATAPHRACT</Type>
+			<!-- <ObsoleteTech>TECH_CHIVALRY</ObsoleteTech> -->
+```
+
+#### Carthaginian [African Forest Elephant](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_CARTHAGINIAN_FOREST_ELEPHANT.php)
+
+```xml
+			<Type>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</Type>
+			<!-- <ObsoleteTech>TECH_CHIVALRY</ObsoleteTech> -->
+```
+
+#### Carthaginian [Quinquereme](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_CARTHAGINIAN_QUINQUEREME.php)
+
+```xml
+			<Type>UNIT_CARTHAGINIAN_QUINQUEREME</Type>
+			<!-- <ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech> -->
+```
+
+#### Hun's [Horse Archer](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_HUN_HORSE_ARCHER.php)
+
+```xml
+			<Type>UNIT_HUN_HORSE_ARCHER</Type>
+			<!-- <ObsoleteTech>TECH_CHIVALRY</ObsoleteTech> -->
+```
+
+#### Austrian [Hussar](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_AUSTRIAN_HUSSAR.php)
+
+```xml
+			<Type>UNIT_AUSTRIAN_HUSSAR</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Ethiopian [Mehal Sefari](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ETHIOPIAN_MEHAL_SEFARI.php)
+
+```xml
+			<Type>UNIT_ETHIOPIAN_MEHAL_SEFARI</Type>
+			<!-- <ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech> -->
+```
+
+#### Swedish [Carolean](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SWEDISH_CAROLEAN.php)
+
+```xml
+			<Type>UNIT_SWEDISH_CAROLEAN</Type>
+			<!-- <ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech> -->
+```
+
+#### Swedish [Hakkapeliitta](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SWEDISH_HAKKAPELIITTA.php)
+
+```xml
+			<Type>UNIT_SWEDISH_HAKKAPELIITTA</Type>
+			<!-- <ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech> -->
+```
+
+#### Hun's [Battering Ram](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_HUN_BATTERING_RAM.php)
+
+```xml
+			<Type>UNIT_HUN_BATTERING_RAM</Type>
+			<!-- <ObsoleteTech>TECH_PHYSICS</ObsoleteTech> -->
+```
+
+#### Dutch [Sea Beggar](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_DUTCH_SEA_BEGGAR.php)
+
+```xml
+			<Type>UNIT_DUTCH_SEA_BEGGAR</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Spanish [Tercio](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SPANISH_TERCIO.php)
+
+```xml
+			<Type>UNIT_SPANISH_TERCIO</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Spanish [Conquistador](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SPANISH_CONQUISTADOR.php)
+
+```xml
+			<Type>UNIT_SPANISH_CONQUISTADOR</Type>
+			<!-- <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech> -->
+```
+
+### Mod in *CIV5Units_Expansion2*
+
+#### Zulu's [Impi](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ZULU_IMPI.php)
+
+```xml
+			<Type>UNIT_ZULU_IMPI</Type>
+			<!-- <ObsoleteTech>TECH_RIFLING</ObsoleteTech> -->
+```
+
+#### Polish [Winged Hussar](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_POLISH_WINGED_HUSSAR.php)
+
+```xml
+			<Type>UNIT_POLISH_WINGED_HUSSAR</Type>
+			<!-- <ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech> -->
+```
+
+#### Assyrian [Siege Tower](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ASSYRIAN_SIEGE_TOWER.php)
+
+```xml
+			<Type>UNIT_ASSYRIAN_SIEGE_TOWER</Type>
+			<!-- <ObsoleteTech>TECH_PHYSICS</ObsoleteTech> -->
+```
+
+#### Brazilian [Pracinha](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_BRAZILIAN_PRACINHA.php)
+
+```xml
+			<Type>UNIT_BRAZILIAN_PRACINHA</Type>
+			<!-- <ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech> -->
+```
+
+#### Portuguese [Nau](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_PORTUGUESE_NAU.php)
+
+```xml
+			<Type>UNIT_PORTUGUESE_NAU</Type>
+			<!-- <ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech> -->
+```
+
+#### Moroccan [Berber Cavalry](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_BERBER_CAVALRY.php)
+
+```xml
+			<Type>UNIT_BERBER_CAVALRY</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Venetian [Great Galleass](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_VENETIAN_GALLEASS.php)
+
+```xml
+			<Type>UNIT_VENETIAN_GALLEASS</Type>
+			<!-- <ObsoleteTech>TECH_NAVIGATION</ObsoleteTech> -->
+```
+
+#### Shoshone's [Pathfinder](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SHOSHONE_PATHFINDER.php)
+
+```xml
+			<Type>UNIT_SHOSHONE_PATHFINDER</Type>
+			<!-- <ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech> -->
+```
+
+#### Shoshone's [Comanche Riders](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_SHOSHONE_COMANCHE_RIDERS.php)
+
+
+```xml
+			<Type>UNIT_SHOSHONE_COMANCHE_RIDERS</Type>
+			<!-- <ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> -->
+```
+
+#### Indonesian [Kris Swordsman](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_KRIS_SWORDSMAN.php)
+
+```xml
+			<Type>UNIT_KRIS_SWORDSMAN</Type>
+			<!-- <ObsoleteTech>TECH_STEEL</ObsoleteTech> -->
+```
+
 ## [English Longbowman](http://civilopedia.serenity.pw/civilopedia/en-us/UNIT_ENGLISH_LONGBOWMAN.php)
 
 - Moved to class *UNITCLASS_COMPOSITE_BOWMAN*;
