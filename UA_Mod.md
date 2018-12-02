@@ -45,7 +45,6 @@ Spoiler WARNING!
 			<GoldenAgeCombatModifier>5</GoldenAgeCombatModifier>
 			<CapitalBuildingModifier>10</CapitalBuildingModifier>
 			<CityStateFriendshipModifier>50</CityStateFriendshipModifier>
-			<EmbarkedAllWater>true</EmbarkedAllWater>
 			<PlotBuyCostModifier>-25</PlotBuyCostModifier>
 			<WonderProductionModifier>10</WonderProductionModifier>
 			<ExtraEmbarkMoves>1</ExtraEmbarkMoves>
