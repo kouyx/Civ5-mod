@@ -2,6 +2,9 @@
 
 ## 领袖获胜
 
+Law of the Splintered Paddle
+Beat the game on any difficulty setting as Kamehameha.
+
 Master of the Universe
 Beat the game on any difficulty setting with each leader.
 
@@ -87,9 +90,6 @@ Au in the EU
 Return a Treasure to Europe.
 
 ### Paradise Found
-
-> Law of the Splintered Paddle（？发现人间天堂 DLC）
-> Beat the game on any difficulty setting as Kamehameha.
 
 Surviving the Marquesas
 Win as Hiva

@@ -1,56 +1,74 @@
-# Grant free promotions
-
-Spoiler WARNING!
-
-## Unique Promotions
-
-- PROMOTION_ALTITUDE_TRAINING
-- PROMOTION_INVULNERABIILITY
-- PROMOTION_SNEAK_ATTACK
-- PROMOTION_HEROISM
-- PROMOTION_RESTLESSNESS
-- PROMOTION_LIGHTNING_WARFARE
-- PROMOTION_FLANK_ATTACK_BONUS
-- PROMOTION_GOLDEN_AGE_POINTS
-
-### NAVAL
-
-- PROMOTION_NAVAL_BONUS
-
-### RANGED
-
-- PROMOTION_INDIRECT_FIRE
-- PROMOTION_RANGED_SUPPORT_FIRE
-
-## COMBAT TYPE
-
-### LAND UNIT
-
-- UNITCOMBAT_MELEE
-- UNITCOMBAT_ARCHER
-- UNITCOMBAT_RECON
-- UNITCOMBAT_MOUNTED
-- UNITCOMBAT_SIEGE
-- UNITCOMBAT_GUN
-- UNITCOMBAT_ARMOR
-
-### NAVAL UNIT
-
-- UNITCOMBAT_NAVALRANGED
-- UNITCOMBAT_NAVALMELEE
-- UNITCOMBAT_SUBMARINE
-- UNITCOMBAT_CARRIER
-
-### RANGED UNIT
-
-- UNITCOMBAT_ARCHER
-- UNITCOMBAT_SIEGE
-- UNITCOMBAT_NAVALRANGED
-- UNITCOMBAT_SUBMARINE
-
-## UA Promotions
-
-```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_WAYFINDING</Type>
+			<Description>TXT_KEY_TRAIT_WAYFINDING</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WAYFINDING_SHORT</ShortDescription>
+			<EmbarkedAllWater>true</EmbarkedAllWater>
+			<NearbyImprovementCombatBonus>10</NearbyImprovementCombatBonus>
+			<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
+			<CombatBonusImprovement>IMPROVEMENT_MOAI</CombatBonusImprovement>
+		<!-- START TEST -->
+			<CityStateBonusModifier>25</CityStateBonusModifier>
+			<FreeUnit>UNITCLASS_ENGINEER</FreeUnit>
+			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
+			<FightWellDamaged>true</FightWellDamaged>
+			<NavalUnitMaintenanceModifier>-33</NavalUnitMaintenanceModifier>
+			<GreatPersonGiftInfluence>45</GreatPersonGiftInfluence>
+			<DOFGreatPersonModifier>5</DOFGreatPersonModifier>
+			<TradeRouteResourceModifier>50</TradeRouteResourceModifier>
+			<AbleToAnnexCityStates>true</AbleToAnnexCityStates>
+			<RazeSpeedModifier>50</RazeSpeedModifier>
+			<UniqueLuxuryCities>4</UniqueLuxuryCities>
+			<UniqueLuxuryQuantity>1</UniqueLuxuryQuantity>
+			<UniqueLuxuryRequiresNewArea>false</UniqueLuxuryRequiresNewArea>
+			<GoldenAgeGreatArtistRateModifier>35</GoldenAgeGreatArtistRateModifier>
+			<GoldenAgeGreatMusicianRateModifier>15</GoldenAgeGreatMusicianRateModifier>
+			<GoldenAgeGreatWriterRateModifier>25</GoldenAgeGreatWriterRateModifier>
+			<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>
+			<CrossesMountainsAfterGreatGeneral>true</CrossesMountainsAfterGreatGeneral>
+			<FreeBuilding>BUILDING_IRONWORKS</FreeBuilding>
+			<BonusReligiousBelief>true</BonusReligiousBelief>
+			<NaturalWonderFirstFinderGold>200</NaturalWonderFirstFinderGold>
+			<NaturalWonderSubsequentFinderGold>100</NaturalWonderSubsequentFinderGold>
+			<NaturalWonderYieldModifier>50</NaturalWonderYieldModifier>
+			<NaturalWonderHappinessModifier>50</NaturalWonderHappinessModifier>
+			<CityUnhappinessModifier>50</CityUnhappinessModifier>
+			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
+			<GoldenAgeDurationModifier>25</GoldenAgeDurationModifier>
+			<GoldenAgeMoveChange>1</GoldenAgeMoveChange>
+			<GoldenAgeCombatModifier>5</GoldenAgeCombatModifier>
+			<CapitalBuildingModifier>10</CapitalBuildingModifier>
+			<CityStateFriendshipModifier>50</CityStateFriendshipModifier>
+			<EmbarkedAllWater>true</EmbarkedAllWater>
+			<PlotBuyCostModifier>-25</PlotBuyCostModifier>
+			<WonderProductionModifier>10</WonderProductionModifier>
+			<ExtraEmbarkMoves>1</ExtraEmbarkMoves>
+			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<ExtraSpies>1</ExtraSpies>
+			<GreatGeneralRateModifier>25</GreatGeneralRateModifier>
+			<GreatGeneralExtraBonus>5</GreatGeneralExtraBonus>
+			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier>
+			<MoveFriendlyWoodsAsRoad>true</MoveFriendlyWoodsAsRoad>
+			<CultureFromKills>50</CultureFromKills>
+			<CapitalThemingBonusModifier>50</CapitalThemingBonusModifier>
+			<LandTradeRouteRangeBonus>3</LandTradeRouteRangeBonus>
+			<TradeReligionModifier>50</TradeReligionModifier>
+			<NumTradeRoutesModifier>50</NumTradeRoutesModifier>
+			<LevelExperienceModifier>-10</LevelExperienceModifier>
+			<ExtraFoundedCityTerritoryClaimRange>4</ExtraFoundedCityTerritoryClaimRange>
+			<FasterInHills>true</FasterInHills>
+			<ImprovementMaintenanceModifier>-25</ImprovementMaintenanceModifier>
+			<NoHillsImprovementMaintenance>true</NoHillsImprovementMaintenance>
+			<!--<TechBoostFromCapitalScienceBuildings>true</TechBoostFromCapitalScienceBuildings>-->
+			<FaithFromUnimprovedForest>true</FaithFromUnimprovedForest>
+			<CityCultureBonus>1</CityCultureBonus>
+		<!-- END TEST -->
+		</Row>
+	</Traits>
 	<Trait_FreePromotionUnitCombats>
 		<!-- START TEST -->
 		<Row>
@@ -360,4 +378,50 @@ Spoiler WARNING!
 		</Row>
 		<!-- END TEST -->
 	</Trait_FreePromotionUnitCombats>
-```
+	<Trait_ImprovementYieldChanges>
+		<!-- START TEST -->
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- END TEST -->
+	</Trait_ImprovementYieldChanges>
+</GameData>
