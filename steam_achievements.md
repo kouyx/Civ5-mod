@@ -26,7 +26,7 @@ Train all Units, across any number of playthroughs.
 Panzer "Shafernator" General
 Spawn over 100 Great Generals, build an army of over 100 standing units, and beat the game 100 times.
 
-## Mod相关
+## Mod 相关
 
 Experimenter
 Play a game with a Mod.
