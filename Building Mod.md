@@ -117,13 +117,11 @@ The production cost has been increased from 120 to 150 as well.
 
 ## BUILDING UPGRADE SYSTEM
 
-### CIV5BuildingClasses_Expansion2
+### Mod in *CIV5BuildingClasses_Expansion2*
 
 ```xml
 	<BuildingClasses>
-
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Cultural  -->
 		<Row>
 			<Type>BUILDINGCLASS_MONUMENT_UP</Type>
@@ -238,16 +236,15 @@ The production cost has been increased from 120 to 150 as well.
 			<DefaultBuilding>BUILDING_WORKSHOP_UP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_WORKSHOP_UP</Description>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</BuildingClasses>
 ```
 
-### CIV5Buildings_Expansion2
+### Mod in *CIV5Buildings_Expansion2*
 
 ```xml
 	<Buildings>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Cultural  -->
 		<Row>
 			<Type>BUILDING_MONUMENT_UP</Type>
@@ -640,11 +637,10 @@ The production cost has been increased from 120 to 150 as well.
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Buildings>
 	<Building_ClassesNeededInCity>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -742,11 +738,10 @@ The production cost has been increased from 120 to 150 as well.
 			<BuildingType>BUILDING_WORKSHOP_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_ClassesNeededInCity>
 	<Building_DomainFreeExperiences>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Military  -->
 		<Row>
 			<BuildingType>BUILDING_BARRACKS_UP</BuildingType>
@@ -794,11 +789,10 @@ The production cost has been increased from 120 to 150 as well.
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>7</Experience>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_DomainFreeExperiences>
 	<Building_Flavors>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -931,11 +925,10 @@ The production cost has been increased from 120 to 150 as well.
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_Flavors>
 	<Building_YieldChanges>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Cultural  -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT_UP</BuildingType>
@@ -986,22 +979,20 @@ The production cost has been increased from 120 to 150 as well.
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_YieldChanges>
 	<Building_YieldChangesPerPop>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Sciences  -->
 		<Row>
 			<BuildingType>BUILDING_LIBRARY_UP</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>25</Yield>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers>
-	<!-- BUILDING UPGRADE SYSTEM -->
-	<!-- START -->
+	<!-- START BUILDING UPGRADE SYSTEM -->
 		<!--  Sciences  -->
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY_UP</BuildingType>
@@ -1015,6 +1006,6 @@ The production cost has been increased from 120 to 150 as well.
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
 		</Row>
-	<!-- END -->
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</Building_YieldModifiers>
 ```

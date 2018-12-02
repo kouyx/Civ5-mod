@@ -95,5 +95,121 @@
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+	<!-- START BUILDING UPGRADE SYSTEM -->
+		<!--  Cultural  -->
+		<Row>
+			<Type>BUILDINGCLASS_MONUMENT_UP</Type>
+			<DefaultBuilding>BUILDING_MONUMENT_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MONUMENT_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AMPHITHEATER_UP</Type>
+			<DefaultBuilding>BUILDING_AMPHITHEATER_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AMPHITHEATER_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_OPERA_HOUSE_UP</Type>
+			<DefaultBuilding>BUILDING_OPERA_HOUSE_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OPERA_HOUSE_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MUSEUM_UP</Type>
+			<DefaultBuilding>BUILDING_MUSEUM_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MUSEUM_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BROADCAST_TOWER_UP</Type>
+			<DefaultBuilding>BUILDING_BROADCAST_TOWER_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BROADCAST_TOWER_UP</Description>
+		</Row>
+
+		<!--  Growth  -->
+		<Row>
+			<Type>BUILDINGCLASS_GRANARY_UP</Type>
+			<DefaultBuilding>BUILDING_GRANARY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GRANARY_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AQUEDUCT_UP</Type>
+			<DefaultBuilding>BUILDING_AQUEDUCT_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AQUEDUCT_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HOSPITAL_UP</Type>
+			<DefaultBuilding>BUILDING_HOSPITAL_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HOSPITAL_UP</Description>
+		</Row>
+		
+		<!--  Military  -->
+		<Row>
+			<Type>BUILDINGCLASS_BARRACKS_UP</Type>
+			<DefaultBuilding>BUILDING_BARRACKS_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BARRACKS_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ARMORY_UP</Type>
+			<DefaultBuilding>BUILDING_ARMORY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARMORY_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MILITARY_ACADEMY_UP</Type>
+			<DefaultBuilding>BUILDING_MILITARY_ACADEMY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MILITARY_ACADEMY_UP</Description>
+		</Row>
+		
+		<!--  Faith  -->
+		<Row>
+			<Type>BUILDINGCLASS_SHRINE_UP</Type>
+			<DefaultBuilding>BUILDING_SHRINE_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SHRINE_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_UP</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_UP</Description>
+		</Row>
+		
+		<!--  City Def  -->
+		<Row>
+			<Type>BUILDINGCLASS_WALLS_UP</Type>
+			<DefaultBuilding>BUILDING_WALLS_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WALLS_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CASTLE_UP</Type>
+			<DefaultBuilding>BUILDING_CASTLE_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CASTLE_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ARSENAL_UP</Type>
+			<DefaultBuilding>BUILDING_ARSENAL_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARSENAL_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MILITARY_BASE_UP</Type>
+			<DefaultBuilding>BUILDING_MILITARY_BASE_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MILITARY_BASE_UP</Description>
+		</Row>
+
+		<!--  Sciences  -->
+		<Row>
+			<Type>BUILDINGCLASS_LIBRARY_UP</Type>
+			<DefaultBuilding>BUILDING_LIBRARY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SHRINE_UP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UNIVERSITY_UP</Type>
+			<DefaultBuilding>BUILDING_UNIVERSITY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UNIVERSITY_UP</Description>
+		</Row>
+		
+
+		<!--  Prod  -->
+		<Row>
+			<Type>BUILDINGCLASS_WORKSHOP_UP</Type>
+			<DefaultBuilding>BUILDING_WORKSHOP_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WORKSHOP_UP</Description>
+		</Row>
+	<!-- END BUILDING UPGRADE SYSTEM -->
 	</BuildingClasses>
 </GameData>
