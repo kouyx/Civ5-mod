@@ -729,5 +729,142 @@
 		<Row Tag="TXT_KEY_LEGAL_BODY">
 			<Text>© 1991-2013 Take-Two Interactive Software and its subsidiaries.  Developed by Firaxis Games.  Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software and their respective logos are all trademarks of Take-Two interactive Software, Inc.  Fork Copyright © 2010 Fork Particle, Inc. Rapid XML Copyright © 2006-2010 Marcin Kalicinski. Lua Copyright © 1994-2010 Lua.org, PUC-Rio. Uses Granny Animation. Copyright © 1999-2010 by RAD Game Tools, Inc. Uses Miles Sound System. Copyright © 1991-2010 by RAD Game Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association.  All other marks and trademarks are the property of their respective owners.  All rights reserved.  The content of this videogame is fictional and is not intended to represent or depict an actual record of the events, persons or entities in the game's historical setting.</Text>
 		</Row>
+<!-- BUILDING UPGRADE SYSTEM  -->
+		<!--  Cultural  -->
+		<Row Tag="TXT_KEY_BUILDING_MONUMENT_UP">
+			<Text>Monument - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONUMENT_UP_STRATEGY">
+			<Text>Improve the existing Monument with a +1 [ICON_CULTURE] Culture but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_UP">
+			<Text>Amphitheater - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_UP_STRATEGY">
+			<Text>Improve the existing Amphitheater with a +1 [ICON_CULTURE] Culture but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_UP">
+			<Text>Opera House - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_UP_STRATEGY">
+			<Text>Improve the existing Opera House with a +1 [ICON_CULTURE] Culture but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUSEUM_UP">
+			<Text>Museum - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUSEUM_UP_STRATEGY">
+			<Text>Improve the existing Museum with a +1 [ICON_CULTURE] Culture but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_UP">
+			<Text>Broadcast Tower - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_UP_STRATEGY">
+			<Text>Improve the existing Broadcast Tower with a +1 [ICON_CULTURE] Culture and +17% [ICON_CULTURE] Culture but increase the building maintenance by +3 [ICON_GOLD] Gold</Text>
+		</Row>
+
+		<!--  Growth  -->
+		<Row Tag="TXT_KEY_BUILDING_GRANARY_UP">
+			<Text>Granary - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRANARY_UP_STRATEGY">
+			<Text>Improve the existing Granary with a +1 [ICON_FOOD] Food but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUEDUCT_UP">
+			<Text>Aqueduct - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUEDUCT_UP_STRATEGY">
+			<Text>Improve the existing Aqueduct with a +10% [ICON_FOOD] Food carried over after a new [ICON_CITIZEN] is born but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOSPITAL_UP">
+			<Text>Hospital - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOSPITAL_UP_STRATEGY">
+			<Text>Improve the existing Hospital with a +2 [ICON_FOOD] Food but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+
+
+		<!--  Military  -->
+		<Row Tag="TXT_KEY_BUILDING_BARRACKS_UP">
+			<Text>Barracks - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BARRACKS_UP_STRATEGY">
+			<Text>Improve the existing Barracks with a +7 XP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_UP">
+			<Text>Armory - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_UP_STRATEGY">
+			<Text>Improve the existing Armory with a +7 XP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_UP">
+			<Text>Military Academy - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_UP_STRATEGY">
+			<Text>Improve the existing Military with a +7 XP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+
+		<!--  Faith  -->
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_UP">
+			<Text>Shrine - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_UP_STRATEGY">
+			<Text>Improve the existing Shrine with a +1 [ICON_PEACE] Faith but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_UP">
+			<Text>Temple - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_UP_STRATEGY">
+			<Text>Improve the existing Temple with a +1 [ICON_PEACE] Faith but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+
+		<!--  City Def  -->
+		<Row Tag="TXT_KEY_BUILDING_WALLS_UP">
+			<Text>Walls - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALLS_UP_STRATEGY">
+			<Text>Improve the existing Walls with a +2.5 [ICON_STRENGTH] and +25 HP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_UP">
+			<Text>Castle - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_UP_STRATEGY">
+			<Text>Improve the existing Castle with a +3.5 [ICON_STRENGTH] and +13 HP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_UP">
+			<Text>Arsenal - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_UP_STRATEGY">
+			<Text>Improve the existing Arsenal with a +4.5 [ICON_STRENGTH] and +13 HP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_UP">
+			<Text>Military Base - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_UP_STRATEGY">
+			<Text>Improve the existing Military Base with a +6 [ICON_STRENGTH] and +13 HP but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+
+		<!--  Sciences  -->
+		<Row Tag="TXT_KEY_BUILDING_LIBRARY_UP">
+			<Text>Library - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIBRARY_UP_STRATEGY">
+			<Text>Improve the existing Library with a +1 [ICON_RESEARCH] for every 4 [ICON_CITIZEN] Population but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_UP">
+			<Text>University - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_UP_STRATEGY">
+			<Text>Improve the existing University with a +17% [ICON_RESEARCH] Science and +1 [ICON_GREAT_PEOPLE] Scientist Slot but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+
+
+		<!--  Prod -->
+		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_UP">
+			<Text>Workshop - Upgrade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_UP_STRATEGY">
+			<Text>Improve the existing Workshop with a +5% [ICON_PRODUCTION] Production and +1 [ICON_GREAT_PEOPLE] Engineer Slot but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+		</Row>
+<!-- END BUILDING UPGRADE SYSTEM  -->
 	</Language_en_US>
 </GameData>
