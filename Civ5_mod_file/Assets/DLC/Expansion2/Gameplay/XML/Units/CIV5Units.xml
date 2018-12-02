@@ -3943,7 +3943,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType><!-- UNITCLASS_RIFLEMAN -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
