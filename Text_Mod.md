@@ -116,7 +116,7 @@ Mod in *CIV5GameTextInfos2_Expansion2*
 <!-- Improved Caravansary -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_HELP">
-			<Text></Text><!-- original "<Text/>" -->
+			<Text>Prod. transfer moved to Caravansary</Text><!-- original "<Text/>" -->
 			<!--<Text>Allows [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.</Text>-->
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CARAVANSARY_HELP">
