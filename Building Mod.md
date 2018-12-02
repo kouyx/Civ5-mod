@@ -2,7 +2,13 @@
 
 ## Buildings in Civ5
 
-### CIV5Buildings
+Mod in *CIV5Buildings*
+
+- Remove the limit of Stone Works on Plains terrain
+- Increase the Prod. of Longhouse from +2 to +3
+- Mint can include Copper (+1 Gold); increase Gold from +2 to +3
+- Seaport now may enhance Citrus
+- Granary includes Bison (+1 Food)
 
 ```xml
 	<Buildings>
@@ -25,18 +31,18 @@
 		</Row>
 	</Building_LocalResourceOrs>
 	<Building_ResourceYieldChanges>
-		<!-- START -->
-		<Row><!-- Resource - Mint Include Copper -->
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield><!-- 2 -->
+		</Row>
+		<!-- START MOD -->
+		<Row><!-- Resource - Mint Include Copper -->
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row><!-- Resource - SEAPORT ENHANCE CITRUS -->
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
@@ -50,7 +56,7 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>		
-		<!-- END -->
+		<!-- END MOD -->
 	</Building_ResourceYieldChanges>
 ```
 ## Improved Caravansary
@@ -64,7 +70,7 @@ Caravansary now provides:
 
 The production cost has been increased from 120 to 150 as well.
 
-### CIV5Buildings
+### Mod in *CIV5Buildings*
 
 ```xml
 		<Row>
@@ -77,7 +83,7 @@ The production cost has been increased from 120 to 150 as well.
 		</Row>
 ```
 
-### CIV5BuildingClasses_Expansion2
+### Mod in *CIV5BuildingClasses_Expansion2*
 
 ```xml
 		<Row>
@@ -88,7 +94,7 @@ The production cost has been increased from 120 to 150 as well.
 		</Row>
 ```
 
-### CIV5Buildings_Expansion2
+### Mod in *CIV5Buildings_Expansion2*
 
 ```xml
 		<Row>
