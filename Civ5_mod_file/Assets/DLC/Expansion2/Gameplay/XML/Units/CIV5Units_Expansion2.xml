@@ -62,12 +62,12 @@
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_LANCER</Class>
+			<Class>UNITCLASS_KNIGHT</Class><!-- UNITCLASS_LANCER -->
 			<Type>UNIT_POLISH_WINGED_HUSSAR</Type>
-			<PrereqTech>TECH_METALLURGY</PrereqTech>
-			<Combat>28</Combat>
-			<Cost>185</Cost>
-			<FaithCost>370</FaithCost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech><!-- TECH_METALLURGY -->
+			<Combat>23</Combat><!-- 28 -->
+			<Cost>120</Cost><!-- 185 -->
+			<FaithCost>240</FaithCost><!-- 370 -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
@@ -82,7 +82,7 @@
 			<Pillage>true</Pillage>
 			<!-- <ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech> -->
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass><!-- UNITCLASS_ANTI_TANK_GUN -->
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2014,7 +2014,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
-			<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType><!-- UNITCLASS_ANTI_TANK_GUN -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
