@@ -82,7 +82,7 @@ Spoiler WARNING!
 
 ### Promotions mod
 
-See *UA Promotions* in [Civ_free_pro_Mod](./Civ_free_pro_Mod.md)
+See *UA Promotions* in [Grant_free_pro_Mod](./Grant_free_pro_Mod.md)
 
 ### Improvement mod
 
