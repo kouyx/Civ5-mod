@@ -1,33 +1,5 @@
 # Terrain Mod
 
-## JEWELRY, PORCELAIN, MARBLE in first 3 cities built
-
-Add in *CIV5Resources*
-
-```xml
-		<Row>
-			<Type>RESOURCE_MARBLE</Type>
-			<CivilizationType>CIVILIZATION_SIAM</CivilizationType><!-- MOD -->
-		</Row>
-		<Row>
-			<Type>RESOURCE_IVORY</Type>
-			<CivilizationType>CIVILIZATION_SIAM</CivilizationType><!-- MOD -->
-		</Row>
-```
-
-Add in *CIV5Resources_Inherited_Expansion2*
-
-```xml
-    <InsertOrAbort>
-      <Type>RESOURCE_JEWELRY</Type>
-      <CivilizationType>CIVILIZATION_SIAM</CivilizationType><!-- MOD -->
-    </InsertOrAbort>
-    <InsertOrAbort>
-      <Type>RESOURCE_PORCELAIN</Type>
-      <CivilizationType>CIVILIZATION_SIAM</CivilizationType><!-- MOD -->
-    </InsertOrAbort>
-```
-
 ## Developable oasis and atoll
 
 Mod in *CIV5Features*
