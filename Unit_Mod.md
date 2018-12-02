@@ -531,7 +531,6 @@ Add in *CIV5Units_Inherited_Expansion2*
 ```xml
 	<Units>
 		<Replace>
-			<Class>UNITCLASS_MARINE</Class>
 			<Type>UNIT_MARINE</Type>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_XCOM_SQUAD</GoodyHutUpgradeUnitClass><!-- UPGRADE TO XCOM-->
 	</Units>

@@ -170,6 +170,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_XCOM_SQUAD</GoodyHutUpgradeUnitClass><!-- UPGRADE TO XCOM-->
 			<AdvancedStartCost>40</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1207,6 +1208,10 @@
     <Delete UnitType="UNIT_PRIVATEER" />
     <Delete UnitType="UNIT_ETHIOPIAN_MEHAL_SEFARI" />
 
+		<Row><!-- UPGRADE TO XCOM-->
+			<UnitType>UNIT_MARINE</UnitType>
+			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
+		</Row>
     <Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
