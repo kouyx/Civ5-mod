@@ -3777,6 +3777,10 @@
 		</Row>
 	</Unit_Builds>
 	<Unit_ClassUpgrades>
+		<Row><!-- BATTLESHIP UPGRADE TO MISSILE CRUISER-->
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
 			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>

@@ -507,13 +507,14 @@ Mod in *CIV5Units*
 Add in *CIV5Units*
 
 ```xml
+<!-- No need maybe
 	<Units>
 		<Row>
-			<Class>UNITCLASS_BATTLESHIP</Class>
 			<Type>UNIT_BATTLESHIP</Type>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_MISSILE_CRUISER</GoodyHutUpgradeUnitClass><!-- UPGRADE TO MISSILE CRUISER-->
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MISSILE_CRUISER</GoodyHutUpgradeUnitClass>
 		</Row>
 	</Units>
+-->
 	<Unit_ClassUpgrades>
 		<Row><!-- BATTLESHIP UPGRADE TO MISSILE CRUISER-->
 			<UnitType>UNIT_BATTLESHIP</UnitType>
