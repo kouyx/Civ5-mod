@@ -1,6 +1,6 @@
 # Buildings Mod in Civ5
 
-## Buildings in Civ5
+## Trivial Enhancement
 
 Mod in *CIV5Buildings*
 
