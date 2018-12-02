@@ -1534,6 +1534,20 @@
     </Row>
   </Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_TANK</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
     <Delete>
       <UnitType>UNIT_TRIPLANE</UnitType>
       <ResourceType>RESOURCE_OIL</ResourceType>

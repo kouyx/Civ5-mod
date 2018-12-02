@@ -621,7 +621,6 @@ Add in *CIV5Units_Inherited_Expansion2*
 Add in *CIV5Units*
 
 ```xml
-	<Unit_ResourceQuantityRequirements>
 	<!--  TEMPLATE
 		<Row>
 			<UnitType>NAME</UnitType>
@@ -630,6 +629,7 @@ Add in *CIV5Units*
 			<Cost>2</Cost>
 		</Row>
 	-->
+	<Unit_ResourceQuantityRequirements>
 	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<!-- RENAISSANCE ERA -->
 		<Row>
@@ -754,6 +754,11 @@ Add in *CIV5Units*
 			<Cost>2</Cost>
 		</Row>
 	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
+```
+
+Mod in *CIV5Units*
+
+```xml
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
@@ -772,7 +777,7 @@ Add in *CIV5Units*
 	</Unit_ResourceQuantityRequirements>
 ```
 
-Mod in *CIV5Units_Expansion2*
+Add in *CIV5Units_Expansion2*
 
 ```xml
 	<Unit_ResourceQuantityRequirements>
@@ -789,7 +794,7 @@ Mod in *CIV5Units_Expansion2*
 	</Unit_ResourceQuantityRequirements>
 ```
 
-Mod in *CIV5Units_Inherited_Expansion2*
+Add in *CIV5Units_Inherited_Expansion2*
 
 ```xml
 	<Unit_ResourceQuantityRequirements>

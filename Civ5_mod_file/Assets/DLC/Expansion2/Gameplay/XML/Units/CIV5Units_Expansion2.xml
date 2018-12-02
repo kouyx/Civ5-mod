@@ -2442,6 +2442,16 @@
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<Row>
 			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>

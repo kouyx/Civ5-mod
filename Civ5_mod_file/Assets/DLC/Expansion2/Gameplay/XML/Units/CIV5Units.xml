@@ -5852,6 +5852,130 @@
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
+	<!-- ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
+		<!-- RENAISSANCE ERA -->
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<!-- INDUSTRIAL ERA -->
+		<Row>
+			<UnitType>UNIT_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<!-- MODERN ERA -->
+		<Row>
+			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<!-- ATOMIC ERA -->
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MOBILE_SAM</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<!-- INFORMATION ERA -->
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+	<!-- END ADDITIONAL STRATEGIC RESOURCE REQUIREMENTS -->
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
@@ -5931,6 +6055,7 @@
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost><!-- 1 -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
@@ -5947,6 +6072,7 @@
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost><!-- 1 -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
@@ -5955,7 +6081,7 @@
 		<Row>
 			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>3</Cost><!-- 2 -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
