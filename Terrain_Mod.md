@@ -1,6 +1,6 @@
 # Terrain Mod
 
-## JEWELRY, PORCELAIN, MARBLE
+## JEWELRY, PORCELAIN, MARBLE in first 3 cities built
 
 Add in *CIV5Resources*
 
