@@ -2152,13 +2152,13 @@
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_CROSSBOWMAN</Class>
+			<Class>UNITCLASS_COMPOSITE_BOWMAN</Class><!-- UNITCLASS_CROSSBOWMAN -->
 			<Type>UNIT_ENGLISH_LONGBOWMAN</Type>
-			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<Combat>13</Combat>
-			<RangedCombat>18</RangedCombat>
-			<Cost>120</Cost>
-			<FaithCost>240</FaithCost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech><!-- TECH_MACHINERY -->
+			<Combat>7</Combat><!-- 13 -->
+			<RangedCombat>11</RangedCombat><!-- 18 -->
+			<Cost>75</Cost><!-- 120 -->
+			<FaithCost>150</FaithCost><!-- 240 -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
@@ -2173,7 +2173,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<!-- <ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech> -->
-			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CROSSBOWMAN</GoodyHutUpgradeUnitClass><!-- UNITCLASS_GATLINGGUN -->
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -3923,7 +3923,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
-			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType><!-- UNITCLASS_GATLINGGUN -->
 		</Row>
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
