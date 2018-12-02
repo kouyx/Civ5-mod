@@ -89,7 +89,6 @@ The production cost has been increased from 120 to 150 as well.
 		<Row>
 			<Type>BUILDINGCLASS_CARAVANSARY</Type>
 			<DefaultBuilding>BUILDING_CARAVANSARY</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description>
 			<MaxPlayerInstances>10</MaxPlayerInstances><!-- ADD -->
 		</Row>
 ```
@@ -99,7 +98,7 @@ The production cost has been increased from 120 to 150 as well.
 ```xml
 		<Row>
 			<Type>BUILDING_CARAVANSARY</Type>
-			<Cost>150</Cost><!-- DEFAULT 120 -->
+			<Cost>150</Cost><!-- 120 -->
 			<GoldMaintenance>1</GoldMaintenance><!-- ADD -->
 			<CityConnectionTradeRouteModifier>1</CityConnectionTradeRouteModifier><!-- ADD -->
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes><!-- ADD -->
@@ -107,14 +106,12 @@ The production cost has been increased from 120 to 150 as well.
 			<!--<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>-->
 		</Row>
 	<Building_ResourceYieldChanges>
-		<!-- START -->
-		<Row>
+		<Row> <!-- Improved Caravansary -->
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<!-- END -->
 	</Building_ResourceYieldChanges>
 ```
 

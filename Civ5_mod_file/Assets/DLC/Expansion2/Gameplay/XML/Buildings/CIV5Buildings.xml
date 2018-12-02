@@ -1136,7 +1136,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
-			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes><!-- true -->
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -1192,7 +1192,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
-			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
+			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes><!-- true -->
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
