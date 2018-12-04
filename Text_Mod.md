@@ -133,7 +133,7 @@ Mod in *CIV5GameTextInfos2_Inherited_Expansion2*
 
 Credit to [BlouBlou](https://steamcommunity.com/sharedfiles/filedetails/?id=82858440)
 
-Mod in *CIV5GameTextInfos2_Expansion2*
+Mod in *CIV5GameTextInfos2_Inherited_Expansion2*
 
 ```xml
 	<Language_en_US>
