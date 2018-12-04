@@ -1,5 +1,17 @@
 # Text mod
 
+## STONE WORKS can be built on PLAINs terrain
+
+Mod in *CIV5GameTextInfos_Jon*
+
+```xml
+		<Row Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP">
+			<Text>Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.</Text>
+			<!-- <Text>Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains.</Text> -->
+		</Row>
+
+```
+
 ## GRANARY Includes BISON
 
 Mod in *CIV5GameTextInfos2_Expansion2*
