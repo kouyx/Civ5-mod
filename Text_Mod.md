@@ -6,14 +6,13 @@ Mod in *CIV5GameTextInfos2_Expansion2*
 
 ```xml
 <!-- Resource - Granary Includes Bison -->
-		<Update>
-			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
-			<Set Text="Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food." />
+		<Row Tag="TXT_KEY_BUILDING_GRANARY_HELP">
+			<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food.</Text>
 			<!--<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>-->
-		</Update>
+		</Row>
 ```
 
-## MINT Include Copper & SEAPORT Include CITRUS
+## MINT Include Copper
 
 Mod in *CIV5GameTextInfos_Jon*
 
@@ -25,6 +24,15 @@ path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
 			<Text>+3 [ICON_GOLD] Gold from [ICON_RES_GOLD] Gold.[NEWLINE]+2 [ICON_GOLD] Gold from [ICON_RES_SILVER] Silver.[NEWLINE]+1 [ICON_GOLD] Gold from [ICON_RES_COPPER] Copper.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text>
 			<!-- <Text>Each source of [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text> -->
 		</Row>
+```
+
+## SEAPORT Include CITRUS
+
+Mod in *CIV5GameTextInfos_Jon*
+
+path: Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\EN_US
+
+```xml
 <!-- Resource - SEAPORT Include CITRUS -->
 		<Row Tag="TXT_KEY_BUILDING_SEAPORT_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Sea Resources worked by this City.  +15% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold from [ICON_RES_CITRUS] Citrus.[NEWLINE][NEWLINE]City must be built on the coast.</Text>

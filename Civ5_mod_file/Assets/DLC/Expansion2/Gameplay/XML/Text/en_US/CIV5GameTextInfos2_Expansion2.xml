@@ -537,7 +537,7 @@
 			<Text>Unique Polish Stable replacement. +15% [ICON_PRODUCTION] Production and  +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each Pasture worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRANARY_HELP">
-			<Set Text="Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food." />
+			<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food.</Text>
 			<!--<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>-->
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HANSE_HELP">
