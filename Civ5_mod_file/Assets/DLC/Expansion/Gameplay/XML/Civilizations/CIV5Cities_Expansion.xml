@@ -388,6 +388,10 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LLANFAIRPWLLGWYNGYLL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_DUBLIN</CityName>
 		</Row>
 		<Row>
@@ -509,10 +513,6 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_LONDONDERRY</CityName>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
-			<CityName>TXT_KEY_CITY_NAME_LLANFAIRPWLLGWYNGYLL</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
