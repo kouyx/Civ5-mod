@@ -501,7 +501,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_MARBLE</Type>
-			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType><!-- MOD -->
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType><!-- MOD -->
 			<Happiness>4</Happiness>
 			<TechCityTrade>TECH_MASONRY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_MARBLE</Description>
@@ -527,7 +527,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_IVORY</Type>
-			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType><!-- MOD -->
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType><!-- MOD -->
 			<Happiness>4</Happiness>
 			<TechCityTrade>TECH_TRAPPING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_IVORY</Description>

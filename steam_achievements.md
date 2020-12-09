@@ -2,9 +2,6 @@
 
 ## 领袖获胜
 
-Law of the Splintered Paddle
-Beat the game on any difficulty setting as Kamehameha.
-
 Master of the Universe
 Beat the game on any difficulty setting with each leader.
 
@@ -32,9 +29,6 @@ Experimenter
 Play a game with a Mod.
 
 ## 修筑地块
-
-Forty-Niner
-Build 1000 mines, across any number of playthroughs.
 
 Paul Bunyan
 Chop down 1000 forest tiles, across any number of playthroughs.
