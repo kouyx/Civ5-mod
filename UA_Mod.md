@@ -234,11 +234,11 @@ See *UA Promotions* in [Grant_free_pro_Mod](./Grant_free_pro_Mod.md)
 			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
-		</Row> -->
+		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>

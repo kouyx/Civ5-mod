@@ -236,11 +236,11 @@
 			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
 			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
-		</Row>
+		</Row> -->
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
@@ -266,11 +266,11 @@
 			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
-		</Row>
+		</Row> -->
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
@@ -360,11 +360,11 @@
 			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
-		</Row> -->
+		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
@@ -395,11 +395,11 @@
 			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
 			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
-		</Row>
+		</Row> -->
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
 			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
